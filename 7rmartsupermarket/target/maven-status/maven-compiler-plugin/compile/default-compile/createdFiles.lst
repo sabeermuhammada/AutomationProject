@@ -1,0 +1,14 @@
+Pages\AdminUsersPage.class
+ultilies\ExcelUtility.class
+ultilies\ScreenShotUtility.class
+ultilies\ExtendReportUtility.class
+ultilies\FakerUtility.class
+Pages\HomePage.class
+Pages\ManageCategoryPage.class
+Pages\ManageNewsPage.class
+ultilies\WaitUtility.class
+ultilies\PageUtility.class
+Pages\LoginPage.class
+constants\Constants.class
+Pages\UserSearchPage.class
+ultilies\FileUploadUtility.class

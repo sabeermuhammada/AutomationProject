@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelTest" parallel="classes" thread-count="5">
+	<parameter name="Broswer" value="chrome"></parameter>
+	<test name="ParallelTest">
+		<classes>
+			<class name="testscripts.AdminUserTestScript"></class>
+			<class name="testscripts.UserSearchPageTestScript"></class>
+		</classes>
+	</test>
+</suite>

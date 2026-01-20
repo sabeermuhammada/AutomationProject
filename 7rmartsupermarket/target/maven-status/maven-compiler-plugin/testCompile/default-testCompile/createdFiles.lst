@@ -1,0 +1,8 @@
+testscripts\LoginPageTestScript.class
+testscripts\ManagenewsPageTestScript.class
+testscripts\BaseClassTestScript.class
+testscripts\HomePageTestScript.class
+testscripts\AdminUserTestScript.class
+testscripts\UserSearchPageTestScript.class
+generatereport\Listeners.class
+retry\Retry.class
