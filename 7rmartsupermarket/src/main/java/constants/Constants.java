@@ -6,4 +6,5 @@ public class Constants {
 	public static final String IMAGEPATH = System.getProperty("user.dir")+"//src//test//resources//GreenApple.jpg";
 	
 	public static final String CONFIGFILE = System.getProperty("user.dir")+"//src//test//resources//config.properties";
+	public static final String ERRORMESSAGEFORLOGIN = " Invalid username / password";
 }

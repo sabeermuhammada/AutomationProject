@@ -8,6 +8,7 @@ import org.testng.annotations.Test;
 
 import Pages.HomePage;
 import Pages.LoginPage;
+import constants.Constants;
 import ultilies.ExcelUtility;
 
 public class LoginPageTestScript extends BaseClassTestScript {
@@ -23,7 +24,7 @@ public class LoginPageTestScript extends BaseClassTestScript {
 		home = loginpageobj.clickloginbutton();
 		System.out.println("Verify user name and password execute sucessfully completed");
 		boolean dashboarddisplayed = loginpageobj.isverifydashboard();
-		Assert.assertTrue(dashboarddisplayed, "Invalid username / password");
+		Assert.assertTrue(dashboarddisplayed, Constants.ERRORMESSAGEFORLOGIN);
 	}
 
 	@Test(priority = 2)
